@@ -21,11 +21,10 @@ img{height:50%;width:50% }
     margin-right: auto;
     width: 50%;
 }
-#header{height: 232px;background-image:url("tako1.jpg");background-repeat: no-repeat;background-size: 1280px 232px;background-position:center;text-align: center;}
+#header{height: 232px;background-image:url("封面.jpg");background-repeat: no-repeat;background-size: 1280px 232px;background-position:center;text-align: center;}
 #header2{height: 30px;background-color: #4d3319;width:100%;}
 #footer {clear:both ;clear:both;height:200px;text-align:center;padding: 1em;background-color:green}
-#footer2{position:fixed; ;height: 30px;bottom: 0px;background-color:#4d3319;width:100%;z-index: 1 }
-
+#footer2{position:fixed; ;height: 30px;bottom: 0px;background-color:#4d3319;width:100%;z-index: 1; }
 .outcolumn{position:fixed;background-color: #ddffd8;height:auto;width:auto;z-index: -1; }
 .leftcolumn{ width: 15%;position:fixed;background-color: #ffcccc;height:auto;}
 .leftcolumn2{ width: 15%; background-color: #ffcccc;height:1080%;position:absolute;background-image: url('台東大學.jpg');}
@@ -39,6 +38,10 @@ img{height:50%;width:50% }
 a:hover {color:#33ccff;} 
 </style>
 <body>
+<iframe src="silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+<audio id="player" autoplay loop>
+    <source src="校歌.mp3" type="audio/mp3">
+</audio>
 <div id="header">
 <h1 class="title">東大應數系的生活</h1></div>
 <div id="header2">
@@ -106,11 +109,11 @@ a:hover {color:#33ccff;}
 	<img class="center" src="1">
 	<pre>便宜大碗絕對讓你吃到撐、吃到死，CP值超高</pre>
 	<h1 class="title2"  id="書香亭">書香亭</h1>
-	<img class="center" src="1">
+	<img class="center" src="書香亭.jpg">
 	<pre>人很多，但出菜還算快速，早餐的吐司，到午餐晚餐的便當都很好吃
 	有附設素食(鍋邊素)</pre>
 	<h1 class="title2"  id="風愛廚房餐飲">風愛廚房餐飲</h1>
-	<img class="center" src="1">
+	<img class="center" src="風愛廚房.jpg">
 	<pre>基本上是會去那邊吃飯主要是看風景，平常上課比較沒有時間去那邊吃飯。</pre>
 	<h1 class="title2"  id="陳鶉羽簡餐">陳鶉羽簡餐</h1>
 	<img class="center" src="鶉羽.jpg">
@@ -120,7 +123,7 @@ a:hover {color:#33ccff;}
 	<pre>很有風格的一家餐廳，菜色也很好吃，唯一的缺點是離理工學院太遠了。</pre>
 </div>
 <div id="footer">
-<pre class="summary">其實沒什麼好介紹的，引用我們老師吳立超講過的話:「上來做就會了。」,
+<pre class="summary">其實沒什麼好介紹的，引用我們老師吳立超講過的話:「<em>上來做就會了。</em>」,
 所以只要你來了你就懂了。</pre>	
 </div>
 <div id="footer2">
